@@ -7,5 +7,10 @@ namespace POO_staticEjercicios.Models;
 public class Contador
 {
     public static int TotalContadores = 0;
-    
+
+    public static void Incrementar()
+    {
+        TotalContadores++;
+        Console.WriteLine(TotalContadores);
+    }
 }
