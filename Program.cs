@@ -25,8 +25,8 @@ Console.WriteLine($"División: {matematica.Dividir():F2}");
 
 //Ejercicio 5
 Console.WriteLine("----------------Ejercicio 5----------------");
-CalculadoraAritmetica.Numero1=4;
-CalculadoraAritmetica.Numero2=5;
+CalculadoraAritmetica.Numero1=1;
+CalculadoraAritmetica.Numero2=2;
 CalculadoraAritmetica.Sumar();
 CalculadoraAritmetica.Restar();
 CalculadoraAritmetica.Multiplicar();
